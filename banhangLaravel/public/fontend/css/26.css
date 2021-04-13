@@ -1,0 +1,94 @@
+.tt-phong-ngu .tt-phong-ngu-header .carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.tt-phong-ngu .tt-phong-ngu-header .carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 12px;
+  height: 12px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+.tt-phong-ngu .tt-phong-ngu-header .font-weight-light {
+  font-family: 'Source Serif Pro', serif;
+}
+.tt-phong-ngu .tt-phong-ngu-banner-top .tt-pn p {
+  font-size: 20px;
+}
+.tt-phong-ngu .tt-phong-ngu-banner-top .tt-pn img {
+  width: 100%;
+  height: 500px;
+}
+.tt-phong-ngu .tt-phong-ngu-banner .carousel-item img {
+  height: 250px;
+}
+.tt-phong-ngu .tt-phong-ngu-banner .p-card {
+  border: 1px solid #eee;
+}
+.tt-phong-ngu .tt-phong-ngu-banner .p-details {
+  padding: 10px;
+  border-radius: 0px;
+  background: #000;
+  height: 110px;
+  color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.tt-phong-ngu .tt-phong-ngu-banner .p-details .buy {
+  position: absolute;
+  bottom: 10px;
+  width: 95%;
+}
+.tt-phong-ngu .tt-phong-ngu-banner .tt-pn-1 {
+  margin: 10px 0;
+  height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.tt-phong-ngu .tt-phong-ngu-banner .spec span {
+  font-size: 13px;
+}
+.tt-phong-ngu .tt-phong-ngu-banner .spec h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.tt-phong-ngu .tt-phong-ngu-banner .carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 12px;
+  height: 12px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+.tt-phong-ngu .tt-phong-ngu-banner .line {
+  background-color: #fff;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  height: 0.2px;
+}

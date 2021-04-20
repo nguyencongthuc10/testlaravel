@@ -87,7 +87,7 @@
                     }
                     ?>
                 
-                <li><a href="{{URL('show-cart-ajax')}}"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+                <li><a href="{{URL('show-cart')}}"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
                  <?php 
                 // kiểm tra \
                     $customer_id = Session::get('customer_id');
@@ -449,7 +449,7 @@
                     </div>
                     <div class="col-sm-2">
                         <div class="single-widget">
-                            <h2>About Shopper</h2>
+                            <h2>THUC Shopper</h2>
                             <ul class="nav nav-pills nav-stacked">
                                 <li><a href="#">Company Information</a></li>
                                 <li><a href="#">Careers</a></li>
@@ -461,11 +461,11 @@
                     </div>
                     <div class="col-sm-3 col-sm-offset-1">
                         <div class="single-widget">
-                            <h2>About Shopper</h2>
+                            <h2>THUC Shopper</h2>
                             <form action="#" class="searchform">
                                 <input type="text" placeholder="Your email address" />
                                 <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
-                                <p>Get the most recent updates from <br />our site and be updated your self...</p>
+                               
                             </form>
                         </div>
                     </div>
@@ -477,8 +477,8 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <p class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
-                    <p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+                    <p class="pull-left">Copyright © 2021 THUC-SHOPPER All rights reserved.</p>
+                   
                 </div>
             </div>
         </div>
@@ -530,7 +530,7 @@
             load_more(id);
          });
      </script>   
-     <script type="text/javascript">
+    <!--  <script type="text/javascript">
         function AddCart($product_id){
             var id = $product_id;
                 var cart_product_id = $('.cart_product_id_' + id).val();
@@ -563,7 +563,7 @@
                 });
         }
             
-    </script>
+    </script> -->
 
 </body>
 </html>

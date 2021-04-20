@@ -25,6 +25,8 @@ class ProductController extends Controller
         if(!$all_product->isEmpty()){
         foreach ($all_product as $key => $pro_product) {
             // lấy id cuối
+
+            
             $last_id = $pro_product->product_id;
             $output.= '<div class="col-md-4  col-sm-12">
                     <div class="img_wrapper_grid">
@@ -46,7 +48,7 @@ class ProductController extends Controller
                                 <h3>'.$pro_product->product_name.'</h3>
                                 <em>'.number_format($pro_product->product_price,0,',','.').'VNĐ</em>
                                 <a href="'.URL('detail-product/'.$pro_product->product_id).'"><p>Chi tiết</p></a>
-                                <button type="button" value="Thêm vào giỏ hàng" class="btn btn-primary add-to-cart" id="'.$pro_product->product_id.'" data-id_product="'.$pro_product->product_id.'" onclick="AddCart(this.id);" name="add-to-cart" style="padding: 0.6em; background:#FE980F;">Thêm vào giỏ hàng</button>
+                               
                                 
                             </div>
                        
